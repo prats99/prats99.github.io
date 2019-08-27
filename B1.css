@@ -1,0 +1,108 @@
+* {
+ 
+ box-sizing: border-box;
+
+}
+
+
+body {
+  font-family: Arial;
+  margin: 0;
+}
+
+.BG{
+	
+	background: url("/home/test05/Desktop/HTML/Business_page/Stadium2.jpg") center center;
+	background-size: cover;
+	height:100vh;
+	width: 100%;
+
+}
+
+.inner_main_menu{
+
+	margin:0 auto;
+	width: 100%;
+	background-color: yellow;
+
+}
+
+.inner_main_menu ul{
+
+	margin:0;
+	padding: 0;
+	list-style: none;
+	text-align: center;
+
+}
+
+.inner_main_menu ul li{
+
+	float: none;
+	display: inline-block;
+	position: center;
+}
+
+
+.inner_main_menu ul li a{
+
+	color: #000080;
+	font-size: 20px;
+	text-decoration: none;
+	display: block;
+	padding: 10px 20px;
+
+}
+.inner_main_menu ul li a:hover{
+
+	color: #A52A2A;
+}
+
+
+#main_menu{
+
+	width: 100%;
+	position: relative;
+	top: 0;
+	position: absolute;
+
+}
+
+/* Column container */
+.row {  
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+  flex: 30%;
+  background-color: yellow;
+  padding: 20px;
+  text-align: center;
+  display: inline-block;
+  text-align: justify;
+
+}
+
+.side *p{
+
+	padding: 20px;
+}
+
+
+.main {
+  flex: 70%;
+  background-color: white;
+  padding: 20px;
+}
+
+/* Fake image, just for this example */
+.logo, p{
+  /*background-color: #aaa;*/
+  width: 100%;
+  padding: 20px;
+  /*margin: 20px;*/
+  /*position: absolute;*/
+}
